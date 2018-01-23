@@ -8,7 +8,7 @@ const Container = styled.div`
   background-color: ${props => props.theme.mainColor};
 
   ${media.lg`padding: 0 20px;`}
-`
+`;
 
 export default () => (
   <ThemeProvider theme={theme}>
