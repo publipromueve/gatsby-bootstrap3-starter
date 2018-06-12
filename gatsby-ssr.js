@@ -18,11 +18,11 @@ exports.onRenderBody = ({ setHeadComponents, setPreBodyComponents }) => {
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-ID');`
         }}
       />,
-      <meta name="description" content="Gatsby Starter" />,
-      <meta property="og:url" content="URL" />,
-      <meta property="og:title" content="TITLE" />,
-      <meta property="og:description" content="Gatsby Starter" />,
-      <meta property="og:image" content="FEATURED-IMAGE" />
+      <meta name="description" content="" />,
+      <meta property="og:url" content="" />,
+      <meta property="og:title" content="" />,
+      <meta property="og:description" content="" />,
+      <meta property="og:image" content="" />
     ])
 
     setPreBodyComponents([
