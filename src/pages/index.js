@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 
-import SEO from '../components/SEO'
+import Head from '../components/Head'
 
 import theme from '../styles/theme'
 import media from '../styles/media'
@@ -15,7 +15,7 @@ const Container = styled.div`
 export default () => (
   <ThemeProvider theme={theme}>
     <Container>
-      <SEO
+      <Head
         title="Gatsby Starter"
         description="Gatsby Bootstrap 3 Starter"
         url="http://www.example.com"
